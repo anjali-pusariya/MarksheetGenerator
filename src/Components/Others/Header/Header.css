@@ -1,0 +1,23 @@
+.Navbar{
+    border: 2px solid black;
+    display: flex;
+    height:auto;
+    justify-content: space-between;
+}
+.Navbar img{
+    height: 40px;
+}
+.Navbar ul,li{
+    display: flex;
+    text-decoration: none;
+    padding-inline: 30px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Navbar Button{
+    margin-right: 20px;
+    margin-top: 10px;
+}

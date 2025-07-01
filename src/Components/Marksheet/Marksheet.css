@@ -1,0 +1,81 @@
+.MarksheetContainer{
+    background: #34495e; 
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.MarksheetContent{
+    height: 95vh;
+    width: 50%;
+    background: #e4f1fe;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+    border-radius: 8px; 
+}
+.marksheet_head{
+    /* border: 2px solid blue; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+    
+}
+.marksheet_head img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    background: white;
+}
+.marksheet_head p{
+    color: blue;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.MarksheetDetailsFinal {
+    padding: 20px;
+    font-size: 16px;
+}
+
+.MarksheetDetailsFinal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.MarksheetDetailsFinal p {
+    margin: 5px 0;
+}
+
+.marks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.marks-table th,
+.marks-table td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+}
+
+.result-summary p {
+    margin: 6px 0;
+    font-weight: 500;
+}
+.student-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.info-column {
+    flex: 1;
+}

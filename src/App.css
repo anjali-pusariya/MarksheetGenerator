@@ -1,0 +1,678 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+}
+/* 
+
+
+.Header {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    gap: 15%;
+    background: white;
+}
+
+.header_ul {
+    height: 60%;
+    width: 40%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 1%;
+}
+
+.header_ul2 {
+    height: 60%;
+    width: 30%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 1%;
+}
+
+.Home_Header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    background: white;
+
+}
+
+.Home_ul {
+    height: 60%;
+    width: 50%;
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 1%;
+
+}
+
+.homeimg {
+    margin-top: 1%;
+    width: 15%;
+    margin-left: 5%;
+}
+
+.home_button {
+    height: 60%;
+    width: 10%;
+    margin-top: 1%;
+    color: white;
+    background-color: #0071c5;
+    border-radius: 3px;
+}
+
+.selhom {
+    border: none;
+    font: 5px;
+}
+
+.slider {
+    height: 70vh;
+    width: 100%;
+    background: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider_para1 {
+    font-size: 40px;
+    color: #001c31;
+}
+
+.slider_para2 {
+    font-size: 40px;
+    color: rgb(2, 88, 121);
+}
+
+.sub_slider1 {
+    height: 50%;
+    width: 40%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.sub_slider2 {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+.sub_sliderimg {
+    height: 95%;
+    margin-top: 9%;
+    margin-right: 30px;
+    box-shadow: rgba(245, 245, 245, 0.35) 0px 5px 15px;
+}
+
+.Slider_button {
+    height: 15%;
+    margin-top: 1%;
+    color: white;
+    border-radius: 3px;
+}
+
+#Slider_button1 {
+    width: 40%;
+    background-color: #0071c5;
+    font-size: 15px;
+}
+
+#Slider_button2 {
+    width: 30%;
+    background-color: #001c31;
+    font-size: 15px;
+}
+
+.Emergency {
+    height: 35vh;
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: -7%;
+    color: white;
+}
+
+.emer_learnmore {
+    color: white;
+}
+
+.sub_emergency {
+    height: 90%;
+    width: 30%;
+    padding: 1%;
+    text-align: justify;
+    border-radius: 10px;
+    background: #0071c5;
+    box-shadow: rgba(242, 238, 238, 0.35) 0px 5px 15px;
+    
+}
+
+.sub_emergency_table {
+
+    width: 90%;
+    height: 35%;
+}
+
+#quote_main {
+    height: 90vh;
+    width: 100%;
+}
+
+.quote {
+    height: 30vh;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.quote_para {
+    color: rgb(95, 95, 95);
+}
+
+.Emergency_help {
+    height: 40vh;
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_emergency_help {
+    box-shadow: rgba(156, 183, 183, 0.35) 0px 5px 15px;
+    height: 90%;
+    width: 30%;
+    padding: 1%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.sub_help {
+    border: 2px solid rgb(188, 188, 188);
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    margin-left: 30%;
+}
+
+#help1 {
+
+    background: url(./emergency.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#help2 {
+    background: url(./emer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#help3 {
+    background: url(./states.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.hospital_rooms {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(rgba(0, 153, 255, 0.662), rgba(0, 153, 255, 0.662)), url(./hand2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.sub_hosp {
+    height: 40%;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.sub_hosp_logo {
+    border: 2px solid white;
+    height: 100%;
+    width: 40%;
+    border-radius: 50%;
+}
+
+.sub_hosp_logoimg {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.sub_hosp_cont {
+    height: 100%;
+    width: 50%;
+}
+
+#quote_main2 {
+    height: 100vh;
+    width: 100%;
+}
+
+.hosp_service {
+    height: 60vh;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+
+}
+
+.hosp_service1 {
+    height: 30%;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.sub_hosp_ser {
+    height: 100%;
+    width: 50%;
+}
+
+.sub_hosp_serimg {
+    height: 100%;
+    width: 100%;
+}
+
+.ser_div {
+    color: gray;
+    height: 40%;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+}
+.hser_para{
+color: grey;
+}
+.sub_ser_div {
+    height: 100%;
+    width: 50%;
+
+}
+
+.med_care {
+    border: 2px solid white;
+    height: 60vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 153, 255, 0.662), rgba(0, 153, 255, 0.662)), url(./caredr2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: white;
+}
+
+.sub_medc {
+    height: 50%;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 7%;
+    text-align: center;
+}
+
+.med_care_button {
+    height: 20%;
+    width: 25%;
+    border-radius: 5px;
+
+}
+
+#med_contact_button {
+    color: #0071c5;
+    background: white;
+    font-size: 15px;
+}
+
+#med_learn_button {
+    border: 2px solid white;
+    color: white;
+    background: none;
+    margin-left: 2%;
+    font-size: 15px;
+}
+
+#quote_main3 {
+    height: 75vh;
+    width: 100%;
+}
+
+.clean {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.clean_sub {
+    height: 80%;
+    width: 20%;
+}
+
+.clean_img {
+    height: 100%;
+    width: 100%;
+}
+
+#quote_main4 {
+    height: 90vh;
+    width: 100%;
+}
+
+.med_service {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub_medser {
+    height: 100%;
+    width: 20%;
+    
+}
+
+.medser1 {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(195, 215, 233, 0.35) 0px 5px 15px;
+}
+
+.img_medser {
+    height: 50%;
+    width: 30%;
+}
+
+.sub_medser1 {
+    height: 100%;
+    width: 70%;
+}
+
+.general_para {
+    color: rgb(95, 95, 95);
+    font-size: 13px;
+}
+
+.main_treatment {
+    height: 120vh;
+    width: 100%;
+    background: rgba(231, 231, 231, 0.541);
+}
+
+.treatment {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.sub_treat {
+    height: 100%;
+    width: 25%;
+    background: white;
+    box-shadow: rgba(195, 215, 233, 0.35) 0px 5px 15px;
+}
+
+.treat_img {
+    height: 20%;
+    width: 40%;
+}
+
+.TreatAmt {
+    color: #0071c5;
+    font-size: 40px;
+}
+
+.TreatContent {
+    color: gray;
+
+}
+
+.treat_table {
+    width: 90%;
+    text-align: left;
+    margin-left: 5%;
+    color: gray;
+    line-height: 40px;
+}
+
+.treat_button {
+    border: 2px solid;
+    height: 10%;
+    width: 90%;
+    border-radius: 5px;
+    background: #0071c5;
+    color: white;
+}
+
+.main_news {
+    height: 100vh;
+    width: 100%;
+}
+
+.news {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.news_img {
+    height: 50%;
+    width: 100%;
+}
+
+.newspara1 {
+    border: 2px solid;
+    height: 6%;
+    width: 30%;
+    border-radius: 4px;
+    margin: 6%;
+    background: #0071c5;
+    color: white;
+}
+
+.newspara2 {
+    margin: 6%;
+    color: gray;
+}
+
+.news_h3 {
+    margin: 6%;
+}
+
+#med_logo {
+    background: linear-gradient(rgba(0, 153, 255, 0.662), rgba(0, 153, 255, 0.662)), url(./hand.jpg);
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sub_medlogo {
+    height: 40%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.medlogodiv {
+    box-shadow: rgba(195, 215, 233, 0.35) 0px 5px 15px;
+    height: 100%;
+    width: 15%;
+}
+
+.medlogo {
+    height: 100%;
+    width: 100%;
+
+}
+
+.appointment {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_app {
+    height: 100%;
+    width: 45%;
+}
+
+#sub_app1 {
+    margin-left: 5%;
+}
+
+#sub_app2 {
+    margin-right: 5%;
+}
+
+.app_img {
+    height: 100%;
+    width: 100%;
+}
+
+.app_info {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_appinfo {
+    height: 100%;
+    width: 45%;
+
+}
+
+.ap_input {
+    height: 25%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.msg1 {
+    height: 40%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ap_button {
+    height: 10%;
+    width: 50%;
+    color: white;
+    background: rgb(5, 113, 164);
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.signup {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    background: #EDF2FF;
+}
+
+.sub_signup {
+    height: 20%;
+    width: 30%;
+    height: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.signpara {
+    color: gray;
+}
+
+.email_signup {
+    height: 30%;
+    width: 60%;
+    border-radius: 4px;
+    border: none;
+    padding-left: 4px;
+}
+
+.subs {
+    height: 30%;
+    width: 30%;
+    border-radius: 4px;
+    background: rgb(5, 113, 164);
+    color: white;
+    font-size: 15px;
+}
+
+.footer {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background: #0071c5;
+    color: white;
+
+}
+
+.sub_foot {
+    height: 80%;
+    width: 20%;
+    margin-top: 2%;
+}
+
+.email_signup2 {
+    height: 15%;
+    width: 70%;
+    border-radius: 4px;
+    background: none;
+    border: 2px solid white;
+    font-size: 15px;
+    color: white;
+}
+
+.subs2 {
+    height: 15%;
+    width: 20%;
+    border-radius: 4px;
+}
+
+.ul_foot {
+    list-style: none;
+    margin: 2%;
+    line-height: 30px;
+    width: 40%;
+}
+
+.quicklinks {
+    height: 70%;
+    width: 100%;
+    display: flex;
+} */

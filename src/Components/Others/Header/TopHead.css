@@ -1,0 +1,27 @@
+.Header {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    gap: 15%;
+    background: white;
+}
+
+.header_ul {
+    height: 60%;
+    width: 40%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 1%;
+}
+
+.header_ul2 {
+    height: 60%;
+    width: 30%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 1%;
+}
