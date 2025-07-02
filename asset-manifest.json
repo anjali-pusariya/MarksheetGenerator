@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/MarksheetGenerator/static/css/main.008204ea.css",
-    "main.js": "/MarksheetGenerator/static/js/main.718238f6.js",
+    "main.js": "/MarksheetGenerator/static/js/main.b381992f.js",
     "static/js/453.9f5fe743.chunk.js": "/MarksheetGenerator/static/js/453.9f5fe743.chunk.js",
     "static/media/Schoollogo.png": "/MarksheetGenerator/static/media/Schoollogo.6ecf39e193067c2396fe.png",
     "index.html": "/MarksheetGenerator/index.html",
     "main.008204ea.css.map": "/MarksheetGenerator/static/css/main.008204ea.css.map",
-    "main.718238f6.js.map": "/MarksheetGenerator/static/js/main.718238f6.js.map",
+    "main.b381992f.js.map": "/MarksheetGenerator/static/js/main.b381992f.js.map",
     "453.9f5fe743.chunk.js.map": "/MarksheetGenerator/static/js/453.9f5fe743.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.008204ea.css",
-    "static/js/main.718238f6.js"
+    "static/js/main.b381992f.js"
   ]
 }
