@@ -1,4 +1,4 @@
-.MainContainerMarksheet {
+/* .MainContainerMarksheet {
     background: #34495e; 
     height: 100vh;
     width: 100%;
@@ -44,4 +44,90 @@
 
 .submit-button {
   width: 100%;
+} */
+
+
+/* =================================UPDATED 31/10/2025=============================== */
+
+.MainContainerMarksheet {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: linear-gradient(to bottom right, #e7ecf1, #cfd9e1);
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.marksheetDetails {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 30px 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 100%;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #003366;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.marksheet-form {
+  width: 100%;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  background: #003366;
+  border-color: #003366;
+  font-size: 16px;
+  padding: 10px 0;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.submit-button:hover {
+  background: #0055aa;
+  border-color: #0055aa;
+}
+
+/* ✅ Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .marksheetDetails {
+    padding: 20px;
+    box-shadow: none;
+    border-radius: 12px;
+  }
+
+  .form-title {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+
+  .submit-button {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .MainContainerMarksheet {
+    padding: 20px 10px;
+  }
+
+  .form-title {
+    font-size: 1.2rem;
+  }
+
+  .marksheetDetails {
+    padding: 16px;
+  }
 }

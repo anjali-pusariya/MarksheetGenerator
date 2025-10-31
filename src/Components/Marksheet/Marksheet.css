@@ -1,4 +1,4 @@
-.MarksheetContainer{
+/* .MarksheetContainer{
     background: #34495e; 
     height: 100vh;
     width: 100%;
@@ -15,7 +15,6 @@
     border-radius: 8px; 
 }
 .marksheet_head{
-    /* border: 2px solid blue; */
     height: 100px;
     width: 100%;
     display: flex;
@@ -27,7 +26,6 @@
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    /* border: 2px solid red; */
     background: white;
 }
 .marksheet_head p{
@@ -78,4 +76,174 @@
 
 .info-column {
     flex: 1;
+} */
+
+/* =================================UPDATED 31/10/2025=============================== */
+
+
+.MarksheetContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #e7ecf1, #cfd9e1);
+  padding: 40px 20px;
 }
+
+.MarksheetContent {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 900px;
+  padding: 30px 40px;
+}
+
+.marksheet_head {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.marksheet_head .school-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.marksheet_head p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #003366;
+  margin: 0;
+}
+
+.MarksheetDetailsFinal h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+
+.student-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.info-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.info-column p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #333;
+}
+
+.marks-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+}
+
+.marks-table th,
+.marks-table td {
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+  text-align: center;
+}
+
+.marks-table th {
+  background-color: #003366;
+  color: white;
+  font-weight: 600;
+}
+
+.marks-table tr:nth-child(even) {
+  background-color: #f5f7fa;
+}
+
+.result-summary {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #333;
+  background: #f7f9fc;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.result-summary p {
+  margin: 8px 0;
+}
+
+.status.pass {
+  color: green;
+  font-weight: 600;
+}
+
+.status.fail {
+  color: red;
+  font-weight: 600;
+}
+
+/* ✅ Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .MarksheetContent {
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: none;
+  }
+
+  .marksheet_head .school-logo {
+    width: 80px;
+  }
+
+  .marksheet_head p {
+    font-size: 1rem;
+  }
+
+  .MarksheetDetailsFinal h2 {
+    font-size: 1.3rem;
+  }
+
+  .info-column {
+    min-width: 100%;
+  }
+
+  .marks-table th,
+  .marks-table td {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .result-summary {
+    font-size: 1rem;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .MarksheetContainer {
+    padding: 20px 10px;
+  }
+
+  .marksheet_head .school-logo {
+    width: 70px;
+  }
+
+  .MarksheetDetailsFinal h2 {
+    font-size: 1.1rem;
+  }
+
+  .marks-table th,
+  .marks-table td {
+    font-size: 0.85rem;
+  }
+}
+
